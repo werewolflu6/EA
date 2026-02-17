@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000010000000000000001 /* FocusCareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000110000000000000001 /* FocusCareApp.swift */; };
+		A10000010000000000000002 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000110000000000000002 /* CameraManager.swift */; };
+		A10000010000000000000003 /* FaceDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000110000000000000003 /* FaceDetector.swift */; };
+		A10000010000000000000004 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000110000000000000004 /* ContentView.swift */; };
+		A10000010000000000000005 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000110000000000000005 /* CameraPreviewView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A10000110000000000000001 /* FocusCareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusCareApp.swift; sourceTree = "<group>"; };
+		A10000110000000000000002 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		A10000110000000000000003 /* FaceDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetector.swift; sourceTree = "<group>"; };
+		A10000110000000000000004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A10000110000000000000005 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		A10000110000000000000006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000110000000000000007 /* FocusCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000210000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000310000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A10000310000000000000002 /* FocusCare */,
+				A10000310000000000000009 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000310000000000000002 /* FocusCare */ = {
+			isa = PBXGroup;
+			children = (
+				A10000310000000000000003 /* App */,
+				A10000310000000000000004 /* Camera */,
+				A10000310000000000000005 /* Vision */,
+				A10000310000000000000006 /* UI */,
+				A10000310000000000000007 /* Resources */,
+				A10000310000000000000008 /* Docs */,
+			);
+			path = FocusCare;
+			sourceTree = "<group>";
+		};
+		A10000310000000000000003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A10000110000000000000001 /* FocusCareApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A10000310000000000000004 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				A10000110000000000000002 /* CameraManager.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		A10000310000000000000005 /* Vision */ = {
+			isa = PBXGroup;
+			children = (
+				A10000110000000000000003 /* FaceDetector.swift */,
+			);
+			path = Vision;
+			sourceTree = "<group>";
+		};
+		A10000310000000000000006 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A10000110000000000000004 /* ContentView.swift */,
+				A10000110000000000000005 /* CameraPreviewView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A10000310000000000000007 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A10000110000000000000006 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A10000310000000000000008 /* Docs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Docs;
+			sourceTree = "<group>";
+		};
+		A10000310000000000000009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10000110000000000000007 /* FocusCare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000410000000000000001 /* FocusCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000510000000000000002 /* Build configuration list for PBXNativeTarget "FocusCare" */;
+			buildPhases = (
+				A10000610000000000000001 /* Sources */,
+				A10000210000000000000001 /* Frameworks */,
+				A10000710000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FocusCare;
+			productName = FocusCare;
+			productReference = A10000110000000000000007 /* FocusCare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000810000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A10000410000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A10000510000000000000001 /* Build configuration list for PBXProject "FocusCare" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = A10000310000000000000001;
+			productRefGroup = A10000310000000000000009 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10000410000000000000001 /* FocusCare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10000710000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000610000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000010000000000000001 /* FocusCareApp.swift in Sources */,
+				A10000010000000000000002 /* CameraManager.swift in Sources */,
+				A10000010000000000000003 /* FaceDetector.swift in Sources */,
+				A10000010000000000000004 /* ContentView.swift in Sources */,
+				A10000010000000000000005 /* CameraPreviewView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A10000910000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A10000910000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A10000910000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FocusCare/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FocusCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A10000910000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FocusCare/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FocusCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000510000000000000001 /* Build configuration list for PBXProject "FocusCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000910000000000000001 /* Debug */,
+				A10000910000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000510000000000000002 /* Build configuration list for PBXNativeTarget "FocusCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000910000000000000003 /* Debug */,
+				A10000910000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000810000000000000001 /* Project object */;
+}
